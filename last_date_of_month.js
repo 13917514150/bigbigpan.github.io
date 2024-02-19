@@ -1,3 +1,6 @@
+
+
+
 function getLastDateOfMonth(year, month) {
     // Month is zero-indexed, so we subtract 1 from the provided month
     const lastDate = new Date(year, month + 1, 0);
@@ -7,6 +10,7 @@ function getLastDateOfMonth(year, month) {
   }
   
   // Example usage: Get the last date of February 2024
-  const lastDateOfFebruary2024 = getLastDateOfMonth(2024, 1);
+
+  const lastDateOfFebruary2024 = getLastDateOfMonth(curretYear, currentMonth-1);
   console.log(lastDateOfFebruary2024);
   

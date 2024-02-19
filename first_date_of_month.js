@@ -3,9 +3,9 @@ const currentDate = new Date();
 const curretYear = currentDate.getFullYear();
 var currentMonth = currentDate.getMonth();
 currentMonth ++;
-console.log(currentDate);
-console.log(curretYear);
-console.log('Current month: ' + currentMonth);
+console.log(`This Year : ${curretYear}`);
+const ThisMonth = 'This Month   ' + currentMonth;
+console.log(ThisMonth);
 // Set the date to the first day of the month
 currentDate.setDate(1);
 
