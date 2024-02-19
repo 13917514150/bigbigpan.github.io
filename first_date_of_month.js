@@ -1,6 +1,8 @@
 // Get the current date
 const currentDate = new Date();
+const curretYear = new getFullYear();
 console.log(currentDate);
+console.log(curretYear);
 
 // Set the date to the first day of the month
 currentDate.setDate(1);
